@@ -103,3 +103,38 @@ table {
       width: 50px;
       cursor: pointer;
     }
+
+
+
+@media only screen and (min-width: 600px) {
+    .box,
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 900;
+    }
+    .box {
+      width: 700px;
+      height: 700px;
+      padding: 150px 50px;
+    }
+
+    #plus,
+    #minus {
+      height: 100px;
+      width: 100px;
+      padding-top: 35px;
+      margin: 120px 10px;
+    }
+
+    #plus {
+      color: rgb(0, 155, 23);
+      font-weight: 900;
+      font-size: 36px;
+    }
+
+    #minus {
+      color: red;
+      font-weight: 900;
+      font-size: 36px;
+    }
+  }
